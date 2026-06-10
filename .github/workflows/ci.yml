@@ -59,7 +59,7 @@ jobs:
   tests:
     name: Tests unitaires
     runs-on: ubuntu-latest
-    needs: [format-lint]
+    needs: [install]
 
     steps:
       - uses: actions/checkout@v4
